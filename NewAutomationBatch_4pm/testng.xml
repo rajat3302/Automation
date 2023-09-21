@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="testingbaba">
+  <test name="Login" enabled="false">
+    <classes>
+      <class name="testingbaba_test.Logintest"/>
+    
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Textbox" enabled="false">
+  <classes>
+  
+  <class name="testingbaba_test.Testbox_test"/>
+  </classes>
+   </test>
+   
+  <test name="   Checkbox_test" enabled ="false">
+  <classes>
+  
+  <class name="testingbaba_test.Checkbox_test"/>
+  </classes>
+   </test>
+   
+    <test name="   Radiobutton_test" enabled ="false">
+  <classes>
+  
+  <class name="testingbaba_test.Radiobutton_test"/>
+  </classes>
+   </test>
+   
+    <test name="   Webtable_test" enabled ="false">
+  <classes>
+  
+  <class name="testingbaba_test.Webtable_test"/>
+  </classes>
+   </test>
+   
+     <test name="   Button_test" enabled="false">
+  <classes>
+  
+  <class name="testingbaba_test.Button_test"/>
+  </classes>
+   </test>
+   
+     <test name="   Links_test" enabled="false">
+  <classes>
+  
+  <class name="testingbaba_test.Links_test"/>
+  </classes>
+   </test>
+   
+    <test name="   Alerts_test" enabled="false">
+  <classes>
+  
+  <class name="testingbaba_test.Alerts_test"/>
+  </classes>
+   </test>
+   
+      <test name="   Upload_test" enabled="false">
+  <classes>
+  
+  <class name="testingbaba_test.Upload_test"/>
+  </classes>
+   </test>
+   
+      <test name="Autocomplete_test" enabled="false">
+  <classes>
+  
+  <class name="testingbaba_test.Autocomplete_test"/>
+  </classes>
+   </test>
+   
+   <test name="Mousehover" enabled="false">
+  <classes>
+  
+  <class name="testingbaba_test.Mousehover"/>
+  </classes>
+   </test>
+   
+    <test name="Tabs" enabled="false">
+  <classes>
+  
+  <class name="testingbaba_test.Tabs_test"/>
+  </classes>
+   </test>
+   
+      <test name="selectmenu" enabled="true">
+  <classes>
+  
+  <class name="testingbaba_test.Selectdropdown_test"/>
+  </classes>
+   </test>
+   
+
+</suite> <!-- Suite -->

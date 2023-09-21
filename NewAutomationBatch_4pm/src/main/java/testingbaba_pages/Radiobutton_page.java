@@ -40,6 +40,7 @@ public class Radiobutton_page extends BaseLibrary
 		impressive.click();
 		no.click();
 		
+		System.out.println("rajat");
 		
 	}
 	

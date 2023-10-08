@@ -32,7 +32,7 @@ public class Links_page extends BaseLibrary
   {
 	  elements.click();
   }
-  public void clickonlinks()
+  public void clickonlinks()s
   {
       try 
       {

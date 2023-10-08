@@ -16,8 +16,8 @@ public class ExcelUtility
 	   {
 		  FileInputStream fis= new FileInputStream(path);
 		  XSSFWorkbook wb= new XSSFWorkbook(fis);
-		XSSFSheet sheetno =wb.getSheetAt(shetno);
-		value =sheetno.getRow(rowno).getCell(colno).getStringCellValue();	 
+		  XSSFSheet sheetno =wb.getSheetAt(shetno);
+		  value =sheetno.getRow(rowno).getCell(colno).getStringCellValue();	 
 		} 
 	   catch (Exception e)
 	   {
